@@ -143,15 +143,19 @@ Day 4: Arrays Part-IV
 
    **Approach**:-
 
-1. #### [Count number of subarrays with given Xor K](https://practice.geeksforgeeks.org/problems/subsets-with-xor-value2023/1#)
+1. #### [Count number of subarrays with given Xor K](https://www.interviewbit.com/problems/subarray-with-given-xor/)
 
-   **Topic**:- Bit Magic | Dynamic Programming| Prefix Sum
+   **Topic**:- Array | Prefix Sum
 
-   **Approach**:
+   > **Approach**:
 
    1. Observe Prefix sum and and store in the unordered_map.
    2. pre[A]^pre[B] = xor value of subarray (a->b)
    3. Use the idea of (subbarray sum equals k)
+
+   **Related Question**
+   1-[Subsets with XOR value](https://practice.geeksforgeeks.org/problems/subsets-with-xor-value2023/1#)
+   ^Find subsets (not subarray)=> use backtracking with Dp , take or not take approach.
 
 1. #### []()
 

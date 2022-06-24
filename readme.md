@@ -18,19 +18,20 @@ Day 1: Arrays
    3. Approach-3 => T-(NM) +S-O(1)-**BEST**
       =>Use zero row and col as flag, Use zerorow and zerocol var to store their status , now mark all row and col zero from 1->size, and if (zerorow)->mark row zero ,same with firstcol.
 
-1. #### []()
+1. #### [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
 
-   **Topic**:-
+   **Topic**:- Array | DP
 
-   > **Approach**:
+   > **Approach**: T-O(N2).
 
-   1.
-   2.
-   3.
+   1. Make a 2d array of size(row given)
+   2. traverse from i=0 to i < r ,also resize mat[i].resize(i+1).
+   3. mat[i][0] = mat[i][i] = 1;
+   4. for j=1 -> j<i => mat[i][j] = mat[i - 1][j - 1] + mat[i - 1][j];
 
-1. #### []()
+1. #### [Next Permutation](https://leetcode.com/problems/next-permutation/)
 
-   **Topic**:-
+   **Topic**:- Array | Two Pointer
 
    > **Approach**:
 
